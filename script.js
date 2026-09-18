@@ -1,4 +1,4 @@
-// Interações pequenas e fáceis de entender.
+
 const menuToggle = document.getElementById("menuToggle")
 const menuLista = document.getElementById("menuLista")
 const anoAtual = document.getElementById("anoAtual")
@@ -10,7 +10,7 @@ if (menuToggle && menuLista) {
         const aberto = menuLista.classList.toggle("open")
         menuToggle.setAttribute("aria-expanded", String(aberto))
     })
-    // Fecha menu ao clicar em um link (experiência melhor no mobile).
+
     menuLista.querySelectorAll("a").forEach(function (link) {
         link.addEventListener("click", function () {
             menuLista.classList.remove("open")
@@ -18,7 +18,7 @@ if (menuToggle && menuLista) {
         })
     })
 }
-// Reveal sutil ao rolar a página.
+// rolar a página.
 const reveals = document.querySelectorAll(".reveal")
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver(
