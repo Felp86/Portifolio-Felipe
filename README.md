@@ -1,1 +1,1 @@
-Estou desenvolvendo esse protifolio para demonstrar oque sei na areae e desenvolver meu curriculo
+Estou desenvolvendo esse protifolio para demonstrar oque sei na area e desenvolver meu curriculo
